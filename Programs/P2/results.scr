@@ -1,0 +1,53 @@
+Script started on 2021-03-06 18:19:21-0500
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ cp short.txt short.orig
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ cp shake.txt shake.orig
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 short.txt
+Compressing file...
+Done!
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 shake.txt
+Compressing file...
+Done!
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ ls -l
+total 9824
+drwx------ 2 mflibby mflibby    4096 Mar  6 18:18 [0m[01;34mfol[0m
+-rw------- 1 mflibby mflibby       0 Mar  6 18:19 results.scr
+-rwx------ 1 mflibby mflibby 5344213 Mar  6 18:19 [01;32mshake.orig[0m
+-rw------- 1 mflibby mflibby 4676191 Mar  6 18:19 shake.txt.z827
+-rwx------ 1 mflibby mflibby      67 Mar  6 18:19 [01;32mshort.orig[0m
+-rw------- 1 mflibby mflibby      63 Mar  6 18:19 short.txt.z827
+-rwx------ 1 mflibby mflibby   13504 Mar  6 18:09 [01;32mz827[0m
+-rw------- 1 mflibby mflibby    3797 Mar  6 18:09 z827.c
+-rw------- 1 mflibby mflibby    3820 Mar  6 18:08 z827.c~
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ od -t x1 short.txt.z827
+0000000 43 00 00 00 41 d0 3c dd 86 b3 cb 20 7a 19 4f 07
+0000020 99 d3 ec 32 88 fe 06 89 cb a0 fa bc 4c 06 a5 dd
+0000040 20 7a 79 4e 4f bb cf a0 77 9d 0e a2 a3 cb 20 3d
+0000060 4e 76 03 8d df 6d b8 bc 3c 9f a7 df 6e 97 02
+0000077
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 short.txt.z827
+Decompressing file...
+Done!
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 short.txt.z827[1P.txt.z827[1P.txt.z827[1P.txt.z827a.txt.z827k.txt.z827e.txt.z827
+Decompressing file...
+Done!
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ ls -l
+total 10476
+drwx------ 2 mflibby mflibby    4096 Mar  6 18:18 [0m[01;34mfol[0m
+-rw------- 1 mflibby mflibby       0 Mar  6 18:19 results.scr
+-rwx------ 1 mflibby mflibby 5344213 Mar  6 18:19 [01;32mshake.orig[0m
+-rw------- 1 mflibby mflibby 5344213 Mar  6 18:20 shake.txt
+-rwx------ 1 mflibby mflibby      67 Mar  6 18:19 [01;32mshort.orig[0m
+-rw------- 1 mflibby mflibby      67 Mar  6 18:20 short.txt
+-rwx------ 1 mflibby mflibby   13504 Mar  6 18:09 [01;32mz827[0m
+-rw------- 1 mflibby mflibby    3797 Mar  6 18:09 z827.c
+-rw------- 1 mflibby mflibby    3820 Mar  6 18:08 z827.c~
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ cmp short.txt short.orig
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ cmp shake.txt shake.orig
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 definitelyarealfile[C[C[C[C
+The file "definitelyarealfile" could not be found.
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ z827 definitelyarealfile[Kz827
+Need a file to (de)compress!
+]0;mflibby@honeybee: ~/cos350/prog/prog2[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog2[00m$ exit
+exit
+
+Script done on 2021-03-06 18:22:53-0500

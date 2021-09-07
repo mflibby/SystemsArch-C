@@ -1,0 +1,33 @@
+Script started on 2021-03-17 12:29:51-0400
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkdir class/cos101
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkdir class/cos101/submit
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mysubmit
+Please enter class number (e.g."COS350"):cos101
+
+Please enter assignment name (e.g."prog1"):prog1
+
+Full dir: class/cos101/submit/mflibby/prog1
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+Makefile~      0	17-3-2021 16:24:1
+class          4096	17-3-2021 16:29:58
+mysubmit       13808	17-3-2021 16:26:52
+mysubmit.c     5123	17-3-2021 16:16:3
+mysubmit.c~    5129	17-3-2021 16:15:10
+results        0	17-3-2021 16:29:51
+sub            13808	17-3-2021 16:16:6
+test1          7	17-3-2021 9:11:3
+test1~         0	17-3-2021 9:10:50
+test2          12	17-3-2021 9:11:15
+test2~         0	17-3-2021 9:10:52
+testdir        4096	17-3-2021 0:47:30
+
+Which files do you want to submit (use spaces to separate files): mysubmit.c mysubmit Makefile
+
+Copying mysubmit.c
+Segmentation fault (core dumped)
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ exit
+exit
+
+Script done on 2021-03-17 12:31:02-0400

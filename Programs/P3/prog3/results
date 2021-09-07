@@ -1,0 +1,157 @@
+Script started on 2021-03-17 13:22:17-0400
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkdir cos101/cos101[Ccos101lcos101acos101scos101scos101[C[C[C[1Pclasscos101[C[C[C[C[C/cos101[C[C[C[C[C[C
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkdir class/cos101/submit
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mysubmit
+Please enter class number (e.g."COS350"):cos101
+
+Please enter assignment name (e.g."prog1"):prog1
+
+Full dir: class/cos101/submit/mflibby/prog1
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+Makefile~      0	17-3-2021 16:24:1
+class          4096	17-3-2021 17:22:33
+mysubmit       13760	17-3-2021 17:20:25
+mysubmit.c     4505	17-3-2021 17:20:18
+mysubmit.c~    4505	17-3-2021 17:7:26
+results        0	17-3-2021 17:22:17
+sub            13808	17-3-2021 16:16:6
+test1          7	17-3-2021 9:11:3
+test1~         0	17-3-2021 9:10:50
+test2          12	17-3-2021 9:11:15
+test2~         0	17-3-2021 9:10:52
+testdir        4096	17-3-2021 0:47:30
+
+Which files do you want to submit (use spaces to separate files): mysubmit.c mysubmit Makefile
+
+Files: mysubmit.c mysubmit Makefile
+Copying mysubmit.c
+Copying mysubmit
+Copying Makefile
+
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+mysubmit       13760	17-3-2021 17:20:25
+mysubmit.c     4505	17-3-2021 17:20:18
+
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls -lR class/cos101
+class/cos101:
+total 4
+drwx------ 3 mflibby mflibby 4096 Mar 17 13:22 [0m[01;34msubmit[0m
+
+class/cos101/submit:
+total 4
+drwx------ 3 mflibby mflibby 4096 Mar 17 13:22 [01;34mmflibby[0m
+
+class/cos101/submit/mflibby:
+total 4
+drwx------ 2 mflibby mflibby 4096 Mar 17 13:23 [01;34mprog1[0m
+
+class/cos101/submit/mflibby/prog1:
+total 28
+-rw------- 1 mflibby mflibby    46 Mar 17 13:23 Makefile
+-rw------- 1 mflibby mflibby 13760 Mar 17 13:23 mysubmit
+-rw------- 1 mflibby mflibby  4505 Mar 17 13:23 mysubmit.c
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkid[K[Kdir /[Kclass/cos102
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mkdir class/cos102/submit
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mysubmkit[K[K[Kit
+Please enter class number (e.g."COS350"):cos102
+
+Please enter assignment name (e.g."prog1"):*
+
+Full dir: class/cos102/submit/mflibby/*
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+Makefile~      0	17-3-2021 16:24:1
+class          4096	17-3-2021 17:24:22
+mysubmit       13760	17-3-2021 17:20:25
+mysubmit.c     4505	17-3-2021 17:20:18
+mysubmit.c~    4505	17-3-2021 17:7:26
+results        0	17-3-2021 17:22:17
+sub            13808	17-3-2021 16:16:6
+test1          7	17-3-2021 9:11:3
+test1~         0	17-3-2021 9:10:50
+test2          12	17-3-2021 9:11:15
+test2~         0	17-3-2021 9:10:52
+testdir        4096	17-3-2021 0:47:30
+
+Which files do you want to submit (use spaces to separate files): ^C
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls class/cos102
+[0m[01;34msubmit[0m
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls class/cos102/submit
+[0m[01;34mmflibby[0m
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls class/cos102/submit/mflibby
+[0m[01;34m'*'[0m
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls class/cos102/submit/mflibby[C[1P class/cos102/submit/mflibby[1P class/cos102/submit/mflibbyr class/cos102/submit/mflibbym class/cos102/submit/mflibbyd class/cos102/submit/mflibbyi class/cos102/submit/mflibbyr class/cos102/submit/mflibby[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/''*'[C[K[1P*
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ rmdir class/cos102/submit/mflibby/*[5Pls class/cos102/submit/mflibby
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ ls class/cos102/submit/mflibbyrmdir class/cos102/submit/mflibby/*[5Pls class/cos102/submit/mflibby[K[K[7Pmysubmit
+Please enter class number (e.g."COS350"):cos102
+
+Please enter assignment name (e.g."prog1"):prog1
+
+Full dir: class/cos102/submit/mflibby/prog1
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+Makefile~      0	17-3-2021 16:24:1
+class          4096	17-3-2021 17:24:22
+mysubmit       13760	17-3-2021 17:20:25
+mysubmit.c     4505	17-3-2021 17:20:18
+mysubmit.c~    4505	17-3-2021 17:7:26
+results        0	17-3-2021 17:22:17
+sub            13808	17-3-2021 16:16:6
+test1          7	17-3-2021 9:11:3
+test1~         0	17-3-2021 9:10:50
+test2          12	17-3-2021 9:11:15
+test2~         0	17-3-2021 9:10:52
+testdir        4096	17-3-2021 0:47:30
+
+Which files do you want to submit (use spaces to separate files): *
+
+
+Files: Makefile Makefile~ class mysubmit mysubmit.c mysubmit.c~ results sub test1 test1~ test2 test2~ testdir
+Copying Makefile
+Copying Makefile~
+Copying class
+Copying mysubmit
+Copying mysubmit.c
+Copying mysubmit.c~
+Copying results
+Copying sub
+Copying test1
+Copying test1~
+Copying test2
+Copying test2~
+Copying testdir
+
+
+-File-		-Size-	-Last Mod-
+Makefile       46	17-3-2021 16:26:36
+Makefile~      0	17-3-2021 16:24:1
+class          4096	17-3-2021 17:24:22
+mysubmit       13760	17-3-2021 17:20:25
+mysubmit.c     4505	17-3-2021 17:20:18
+mysubmit.c~    4505	17-3-2021 17:7:26
+results        0	17-3-2021 17:22:17
+sub            13808	17-3-2021 16:16:6
+test1          7	17-3-2021 9:11:3
+test1~         0	17-3-2021 9:10:50
+test2          12	17-3-2021 9:11:15
+test2~         0	17-3-2021 9:10:52
+testdir        4096	17-3-2021 0:47:30
+
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ mysubmit
+Please enter class number (e.g."COS350"):cos103
+
+Please enter class number (e.g."COS350"):cos106
+
+Please enter class number (e.g."COS350"):a asdf
+
+Please enter class number (e.g."COS350"):^C
+]0;mflibby@honeybee: ~/cos350/prog/prog3[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog3[00m$ exit
+exit
+
+Script done on 2021-03-17 13:27:04-0400

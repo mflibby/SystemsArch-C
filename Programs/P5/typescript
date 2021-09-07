@@ -1,0 +1,56 @@
+Script started on 2021-05-04 08:04:54-0400
+]0;mflibby@honeybee: ~/cos350/prog/prog5[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog5[00m$ mysh
+--> ls
+execute.c  execute.o  Makefile	mysh  mysh.c  mysh.h  mysh.o  smsh1  smsh1.c  smsh.h  splitline.c  splitline.o	typescript
+--> date
+Tue May  4 08:05:05 EDT 2021
+--> bogus
+cannot execute command: No such file or directory
+--> exit
+Exiting with status 0
+]0;mflibby@honeybee: ~/cos350/prog/prog5[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog5[00m$ mysh
+--> exi7 t 7
+Exiting with status 7
+]0;mflibby@honeybee: ~/cos350/prog/prog5[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog5[00m$ echo $?
+7
+]0;mflibby@honeybee: ~/cos350/prog/prog5[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog5[00m$ mysh
+--> pwd
+/home/students/mflibby/cos350/prog/prog5
+--> cd ..
+--> pwd
+/home/students/mflibby/cos350/prog
+--> cd /usr/bin
+--> pwd
+/usr/bin
+--> cd bogus
+--> pwd
+/usr/bin
+--> cd
+--> pwd
+/home/students/mflibby
+--> sleep 10 &
+[1] 21960
+--> ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 21925 20330 20328  0  80   0 -  3615 wait   pts/9    00:00:00 bash
+0 S 21925 21022 20330  0  80   0 -  1183 wait   pts/9    00:00:00 mysh
+0 S 21925 21960 21022  0  80   0 -  1869 hrtime pts/9    00:00:00 sleep
+0 R 21925 22007 21022  0  80   0 -  7230 -      pts/9    00:00:00 ps
+--> ps -l
+--> F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 21925 20330 20328  0  80   0 -  3615 wait   pts/9    00:00:00 bash
+0 S 21925 21022 20330  0  80   0 -  1183 wait_w pts/9    00:00:00 mysh
+0 R 21925 22500 21022  0  80   0 -  7230 -      pts/9    00:00:00 ps
+
+--> ps -l
+--> F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 21925 20330 20328  0  80   0 -  3615 wait   pts/9    00:00:00 bash
+0 S 21925 21022 20330  0  80   0 -  1183 wait_w pts/9    00:00:00 mysh
+0 R 21925 22710 21022  0  80   0 -  7230 -      pts/9    00:00:00 ps
+
+--> exit
+Exiting with status 0
+]0;mflibby@honeybee: ~/cos350/prog/prog5[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog5[00m$ exit
+exit
+
+Script done on 2021-05-04 08:07:13-0400

@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Tex Aux
+*.aux
+*.log
+*.pytxcode
+*.synctex.gz
+*.tex
+*.toc
+
+# Other
+*.png

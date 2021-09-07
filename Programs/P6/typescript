@@ -1,0 +1,52 @@
+Script started on 2021-05-04 14:22:18-0400
+]0;mflibby@honeybee: ~/cos350/prog/prog6[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog6[00m$ time lc1 f*
+175641	f1
+26175	f10
+345130	f2
+65336	f3
+211035	f4
+53835	f5
+33055	f6
+13426	f7
+16271	f8
+54544	f9
+994448
+
+real	0m0.052s
+user	0m0.025s
+sys	0m0.016s
+]0;mflibby@honeybee: ~/cos350/prog/prog6[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog6[00m$ time lc2 f*
+26175	f10
+33055	f6
+345130	f2
+53835	f5
+175641	f1
+13426	f7
+16271	f8
+54544	f9
+65336	f3
+211035	f4
+
+real	0m0.024s
+user	0m0.022s
+sys	0m0.038s
+]0;mflibby@honeybee: ~/cos350/prog/prog6[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog6[00m$ time lc3 f*
+175641	f1
+26175	f10
+345130	f2
+65336	f3
+211035	f4
+53835	f5
+33055	f6
+13426	f7
+16271	f8
+54544	f9
+994448	Total
+
+real	0m0.030s
+user	0m0.059s
+sys	0m0.025s
+]0;mflibby@honeybee: ~/cos350/prog/prog6[01;32mmflibby@honeybee[00m:[01;34m~/cos350/prog/prog6[00m$ exit
+exit
+
+Script done on 2021-05-04 14:22:45-0400
